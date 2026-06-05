@@ -12,7 +12,9 @@ const BRANDS = [
   { name: "Galby",    logo: "/img/galby.png", bgImage: "/img/galby_bg.png" },
   { name: "SOI VRE",  logo: "/img/soivre.png", bgImage: "/img/soivre_bg.png" },
   { name: "ALFA",     logo: "/img/alfa_b.png", bgImage: "/img/alfa_bg.png" },
-  { name: "COSMETIX", logo: "/img/cosmetix_b.png", bgImage: "/img/cosmetix_bg.png" },
+  { name: "cipollino", logo: "/img/cipollino_logo.png", bgImage: "/img/cipollino_bg.png" },
+  { name: "biomed", logo: "/img/biomed_logo.png", bgImage: "/img/biomed_bg.png" },
+  { name: "dentyucral", logo: "/img/dentyucral_logo.png", bgImage: "/img/dentyurcal.png" },
 ];
 
 export default function BrandShowcase() {

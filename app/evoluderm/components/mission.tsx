@@ -6,13 +6,14 @@ export default function Mission() {
       
       {/* Row 1: Pink DNA Image (Left) & LE + List (Right) */}
       <div className="grid md:grid-cols-2 gap-8 items-center  mb-16">
-        <div className="w-full h-92 overflow-hidden rounded-2xl shadow-sm">
+        <div className="w-full h-92 overflow-hidden shadow-sm rounded-2xl ">
           <Image
-            src="/img/le_pic2.jpg" // Replace with your first image from image_3d5157.png
+            src="/img/le5.png" // Replace with your first image from image_3d5157.png
             alt="DNA Concept Illustration"
             width={600}
             height={300}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover "
+            draggable={false}
           />
         </div>
         <div className="space-y-4 md:pl-24">
@@ -22,19 +23,19 @@ export default function Mission() {
           <ul className="space-y-3">
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le1.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Technologie avancée</span>
+              <span>Made in France</span>
             </li>
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le2.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Résultats visibles</span>
+              <span>Formules accessibles</span>
             </li>
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le3.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Soins haute performance</span>
+              <span>Large choix produits</span>
             </li>
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le4.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Approche anti-âge globale</span>
+              <span>Adapté à toute la famille</span>
             </li>
           </ul>
         </div>
@@ -47,16 +48,17 @@ export default function Mission() {
             MISSION
           </h2>
           <p className="text-[18px]  text-gray-800 max-w-xl">
-            Offrir des soins cosmétiques de haute qualité,  <br /> scientifiquement élaborés et adaptés aux besoins<br /> individuels, afin d’améliorer la beauté naturelle de <br /> la peau et garantir des résultats visibles et durables.
+            Offrir des produits d’hygiène et de beaut é <br /> accessibles, efficaces et adaptés à tous, sans <br /> compromis sur la qualité.
           </p>
         </div>
-        <div className="w-full h-92 overflow-hidden rounded-2xl shadow-sm order-1 md:order-2">
+        <div className="w-full mx-auto h-92 overflow-hidden shadow-sm order-1 md:order-2">
           <Image
-            src="/img/mission3.png" // Replace with your second image from image_3d5157.png
+            src="/img/mission7.png" // Replace with your second image from image_3d5157.png
             alt="Passing skincare bottle"
             width={600}
-            height={300}
-            className="w-full h-full object-cover"
+            height={600}
+            draggable={false}
+            className="w-full h-full object-cover object-center  rounded-4xl"
           />
         </div>
       </div>
@@ -65,10 +67,10 @@ export default function Mission() {
       <div className="bg-[#f9fafc] rounded-3xl p-10 md:p-14 text-center">
         <div className="mb-12">
           <h2 className="text-2xl font-bold uppercase tracking-wide text-black mb-2">
-            UNE EXPERTISE BEAUTÉ RAFFINÉE ET HAUTE PERFORMANCE
+            UNE BEAUTÉ ACCESSIBLE, SENSORIELLE ET AUTHENTIQUE
           </h2>
           <p className="text-[16px] text-gray-800">
-            PAUL DE VARTENS s’appuie sur trois piliers fondamentaux :
+            Evoluderm s’appuie sur trois piliers fondamentaux :
           </p>
         </div>
 
@@ -78,17 +80,18 @@ export default function Mission() {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-full bg-[#ebeeef] flex items-center justify-center mb-5">
               <Image 
-                src="/img/mis1.png" // Replace with your flask PNG icon
+                src="/img/mis9.png" // Replace with your flask PNG icon
                 alt="La Science" 
                 width={60} 
                 height={60} 
               />
             </div>
             <h3 className="text-[16px] font-bold uppercase tracking-wide text-black mb-2">
-              LA SCIENCE
+              Une offre large
+
             </h3>
             <p className="text-[15px] text-gray-800 leading-relaxed max-w-[240px]">
-                Innovation & performance <br /> visible
+                plus de 225 produits pour <br /> tous les besoins
             </p>
           </div>
 
@@ -96,17 +99,17 @@ export default function Mission() {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-full bg-[#ebeeef] flex items-center justify-center mb-5">
               <Image 
-                src="/img/mis6.png" // Replace with your droplet PNG icon
+                src="/img/mis2.png" // Replace with your droplet PNG icon
                 alt="La Pureté" 
                 width={60} 
                 height={60} 
               />
             </div>
             <h3 className="text-[16px] font-bold uppercase tracking-wide text-black mb-2">
-             LE RAFFINEMENT
+             Une qualité <br /> accessible
             </h3>
             <p className="text-[15px] text-gray-800 leading-relaxed max-w-[240px]">
-               Soin premium & <br /> expérience élégante
+               Made in France au prix juste
             </p>
           </div>
 
@@ -114,17 +117,17 @@ export default function Mission() {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-full bg-[#ebeeef] flex items-center justify-center mb-5">
               <Image 
-                src="/img/mis7.png" // Replace with your hands PNG icon
+                src="/img/mis10.png" // Replace with your hands PNG icon
                 alt="La Confiance" 
-                width={60} 
-                height={60} 
+                width={50} 
+                height={50} 
               />
             </div>
             <h3 className="text-[16px] font-bold uppercase tracking-wide text-black mb-2">
-              L’HARMONIE
+              Une approche <br /> familiale
             </h3>
             <p className="text-[15px] text-gray-800 leading-relaxed max-w-[240px]">
-              Respect et équilibre <br /> naturel  de la peau
+              des soins pour tous
             </p>
           </div>
         </div>

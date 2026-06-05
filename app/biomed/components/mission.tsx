@@ -8,7 +8,7 @@ export default function Mission() {
       <div className="grid md:grid-cols-2 gap-8 items-center  mb-16">
         <div className="w-full h-92 overflow-hidden rounded-2xl shadow-sm">
           <Image
-            src="/img/le_pic2.jpg" // Replace with your first image from image_3d5157.png
+            src="/img/le12.png" // Replace with your first image from image_3d5157.png
             alt="DNA Concept Illustration"
             width={600}
             height={300}
@@ -22,19 +22,19 @@ export default function Mission() {
           <ul className="space-y-3">
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le1.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Technologie avancée</span>
+              <span>Blanchiment naturel</span>
             </li>
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le2.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Résultats visibles</span>
+              <span>Exfoliation douce</span>
             </li>
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le3.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Soins haute performance</span>
+              <span>Polissage des dents</span>
             </li>
             <li className="flex items-center gap-3 text-[16px] text-gray-800">
               <Image src="/img/le4.png" alt="" width={30} height={30} className="object-contain" />
-              <span>Approche anti-âge globale</span>
+              <span>Respect de l’émail</span>
             </li>
           </ul>
         </div>
@@ -47,12 +47,12 @@ export default function Mission() {
             MISSION
           </h2>
           <p className="text-[18px]  text-gray-800 max-w-xl">
-            Offrir des soins cosmétiques de haute qualité,  <br /> scientifiquement élaborés et adaptés aux besoins<br /> individuels, afin d’améliorer la beauté naturelle de <br /> la peau et garantir des résultats visibles et durables.
+            Offrir des solutions dentaires performantes <br /> permettant d’améliorer l’hygiène, la blancheur et la <br /> fraîcheur au quotidien.
           </p>
         </div>
         <div className="w-full h-92 overflow-hidden rounded-2xl shadow-sm order-1 md:order-2">
           <Image
-            src="/img/mission3.png" // Replace with your second image from image_3d5157.png
+            src="/img/mission12.png" // Replace with your second image from image_3d5157.png
             alt="Passing skincare bottle"
             width={600}
             height={300}
@@ -65,10 +65,10 @@ export default function Mission() {
       <div className="bg-[#f9fafc] rounded-3xl p-10 md:p-14 text-center">
         <div className="mb-12">
           <h2 className="text-2xl font-bold uppercase tracking-wide text-black mb-2">
-            UNE EXPERTISE BEAUTÉ RAFFINÉE ET HAUTE PERFORMANCE
+             UNE EXPERTISE BUCCO-DENTAIRE INNOVANTE ET EFFICACE
           </h2>
           <p className="text-[16px] text-gray-800">
-            PAUL DE VARTENS s’appuie sur trois piliers fondamentaux :
+            Biomed repose sur trois piliers fondamentaux
           </p>
         </div>
 
@@ -78,17 +78,17 @@ export default function Mission() {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-full bg-[#ebeeef] flex items-center justify-center mb-5">
               <Image 
-                src="/img/mis1.png" // Replace with your flask PNG icon
+                src="/img/mis11.png" // Replace with your flask PNG icon
                 alt="La Science" 
                 width={60} 
                 height={60} 
               />
             </div>
             <h3 className="text-[16px] font-bold uppercase tracking-wide text-black mb-2">
-              LA SCIENCE
+                Technologie & <br /> innovation
             </h3>
             <p className="text-[15px] text-gray-800 leading-relaxed max-w-[240px]">
-                Innovation & performance <br /> visible
+               actifs efficaces et ciblés
             </p>
           </div>
 
@@ -96,17 +96,17 @@ export default function Mission() {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-full bg-[#ebeeef] flex items-center justify-center mb-5">
               <Image 
-                src="/img/mis6.png" // Replace with your droplet PNG icon
+                src="/img/mis12.png" // Replace with your droplet PNG icon
                 alt="La Pureté" 
                 width={60} 
                 height={60} 
               />
             </div>
             <h3 className="text-[16px] font-bold uppercase tracking-wide text-black mb-2">
-             LE RAFFINEMENT
+             Résultat & <br /> performance
             </h3>
             <p className="text-[15px] text-gray-800 leading-relaxed max-w-[240px]">
-               Soin premium & <br /> expérience élégante
+               blancheur et propreté <br /> visibles
             </p>
           </div>
 
@@ -114,17 +114,17 @@ export default function Mission() {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-full bg-[#ebeeef] flex items-center justify-center mb-5">
               <Image 
-                src="/img/mis7.png" // Replace with your hands PNG icon
+                src="/img/mis13.png" // Replace with your hands PNG icon
                 alt="La Confiance" 
                 width={60} 
                 height={60} 
               />
             </div>
             <h3 className="text-[16px] font-bold uppercase tracking-wide text-black mb-2">
-              L’HARMONIE
+              Expérience & <br /> fraîcheur
             </h3>
             <p className="text-[15px] text-gray-800 leading-relaxed max-w-[240px]">
-              Respect et équilibre <br /> naturel  de la peau
+              sensation agréable et <br /> durable
             </p>
           </div>
         </div>

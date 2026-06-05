@@ -7,36 +7,36 @@ const TIMELINE = [
     year: "2021",
     title: "Fondation d'ICG",
     description:
-      "Naissance d’une vision ambitieuse : créer un groupe cosmétique marocain capable de développer et promouvoir des marques expertes, efficaces et innovantes.",
+      "ICGROUPE voit le jour, marquant le début d’une aventure ambitieuse dans l’univers de la dermo-cosmétique et du bien-être, portée par une vision axée sur l’innovation et la qualité.",
   },
   {
     year: "2022",
     title: "Premières Marques",
     description:
-      "Lancement de nos premières marques phares avec des gammes de soins développées en collaboration avec des dermatologues et formulées dans nos laboratoires partenaires.",
+      "Le groupe lance sa première gamme Galby Dermatologie, posant les bases d’une expertise reconnue et d’un positionnement orienté efficacité et science.",
   },
   {
     year: "2023",
     title: "Expansion Digitale",
     description:
-      "Ouverture de notre plateforme e-commerce et déploiement d'une stratégie omnicanale. Partenariats avec plus de 200 points de vente à travers le Maroc.",
+      "ICGROUPE accélère son développement avec l’introduction de plusieurs nouvelles marques, élargissant son portefeuille et couvrant les univers cosmétique, capillaire et bucco-dentaire.",
   },
   {
     year: "2024",
     title: "Rayonnement International",
     description:
-      "Extension sur les marchés africains et du Moyen-Orient. Certification de nos processus qualité et lancement de nouvelles gammes innovantes.",
+      "Année stratégique marquée par une transformation globale : nouvelle identité visuelle du groupe, début de distribution de nouvelles marques partenaires et relancement de Galby Dermatech avec une approche innovante et des formules de nouvelle génération.",
   },
   {
     year: "2025",
     title: "Consolidation & Expansion",
     description:
-      "Plus de 10 marques développées et commercialisées. Plus de 500 points de vente à travers le Maroc. Présence dans plus de 10 pays africains et du Moyen-Orient.",
+      "ICG poursuit son expansion avec le lancement de nouvelles gammes et l’intégration de marques telles qu’Evoluderm et Alfa, renforçant son positionnement et sa capacité à répondre aux besoins variés du marché.",
   },
   {
     year: "2026",
     title: "",
-    description: "",
+    description: "ICG amorce une nouvelle phase de développement avec le lancement de marques stratégiques — Clearé Institute, Reistill, Davaj et Cipollino — renforçant son positionnement innovant et sa présence sur des segments clés à fort potentiel.",
   },
 ];
 
