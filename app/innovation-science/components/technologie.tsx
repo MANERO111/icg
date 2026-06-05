@@ -109,7 +109,7 @@ export default function TechnologiesSection() {
         <section className="w-[90%] mx-auto  bg-white py-16 px-4 md:px-8 overflow-hidden">
             {/* Header */}
             <div className="text-center mb-10 mt-30 max-w-7xl mx-auto">
-                <h2 className="text-4xl md:text-5xl font-semibold text-[#e0296a] uppercase tracking-tight mb-4">
+                <h2 className="text-4xl md:text-5xl font-semibold text-[#e0296a] uppercase tracking-tight mb-4" id="technologie">
                     Nos Technologies
                 </h2>
                 <p className="text-gray-900 text-base md:text-xl leading-relaxed">

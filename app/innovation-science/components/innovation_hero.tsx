@@ -10,21 +10,21 @@ export default function InnovationHero() {
       id: "technologies",
       label: "Nos technologies",
       icon: "🧬",
-      href: "#nos-technologie",
+      href: "#technologie",
       pic : "/img/lampe.png"
     },
     {
       id: "laboratoires",
       label: "Nos laboratoires",
       icon: "🧪",
-      href: "#nos-laboratoires",
+      href: "#nosLaboratoire",
       pic : "/img/labo_icon.png"
     },
     {
       id: "synergie",
       label: "Synergie Dermatech",
       icon: "✨",
-      href: "#synergie-dermatech",
+      href: "#synergie",
       pic : "/img/plus.png"
     },
   ];

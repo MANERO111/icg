@@ -9,7 +9,7 @@ export default function SynergieSection() {
             </div>
             {/* Header */}
             <div className="text-center mb-12 max-w-7xl mx-auto">
-                <h2 className="text-4xl md:text-5xl font-semibold text-[#e0296a] uppercase tracking-tight mb-5">
+                <h2 className="text-4xl md:text-5xl font-semibold text-[#e0296a] uppercase tracking-tight mb-5" id="synergie">
                     Synergie Dermatech
                 </h2>
                 <p className="text-gray-800 text-base md:text-2xl leading-relaxed">
