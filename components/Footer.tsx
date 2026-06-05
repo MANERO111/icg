@@ -5,24 +5,24 @@ import { useState } from "react";
 
 const navLinks: Record<string, { label: string; href: string }[]> = {
   ICG: [
-    { label: "À propos", href: "#" },
+    { label: "À propos", href: "/notre-histoire" },
     { label: "Notre histoire", href: "/notre-histoire" },
     { label: "Mission & Vision", href: "/mission-vision" },
     { label: "Nos valeurs", href: "/mission-vision" },
   ],
   MARQUES: [
-    { label: "Nos marques", href: "#" },
-    { label: "Innovation", href: "#" },
+    { label: "Nos marques", href: "/nos-marques" },
+    { label: "Innovation", href: "/innovation-science" },
     { label: "Boutique", href: "#" }
   ],
   ÉCOSYSTÈME: [
     { label: "Partenaires", href: "#" },
     { label: "Formation", href: "#" },
     { label: "Distribution", href: "#" },
-    { label: "Actualités", href: "#" }
+    { label: "Actualités", href: "/actualites" }
   ],
   CONTACT: [
-    { label: "Contact", href: "#" },
+    { label: "Contact", href: "/contact" },
     { label: "Demande de partenariat", href: "#" }
   ],
 };

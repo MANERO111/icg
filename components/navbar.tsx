@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { label: "INNOVATION & SCIENCE", href: "/innovation-science" },
   { label: "ÉCOSYSTÈME ICG", href: "/ecosystem" },
   { label: "ACTUALITÉS", href: "/actualites" },
-  { label: "BOUTIQUE", href: "" },
+  { label: "BOUTIQUE", href: "#" },
 ];
 
 const A_PROPOS_DROPDOWN = [
@@ -66,7 +66,7 @@ export default function ICGHeader() {
               <span className="text-gray-300">|</span>
               <a href="#" className="hover:text-[#e05080] transition-colors">Devenir partenaire</a>
               <span className="text-gray-300">|</span>
-              <a href="#" className="text-[#e0296a] hover:text-[#e05080] flex items-center gap-2 transition-colors">
+              <a href="/" className="text-[#e0296a] hover:text-[#e05080] flex items-center gap-2 transition-colors">
                 <Book className="w-4 h-4" />
                 <span className="font-bold">Notre Catalogue</span>
               </a>

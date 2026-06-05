@@ -6,15 +6,19 @@ import { ChevronLeft, ChevronRight, ShoppingCart } from "lucide-react";
 
 // Placeholder data - using generic high quality placeholders for the brand logos and images
 const BRANDS = [
-  { name: "MURALES", logo: "/img/capilift.png", bgImage: "/img/caplift_bg.png" },
-  { name: "PAUL",     logo: "/img/pauldevartens.png", bgImage: "/img/paul_bg.png" },
-  { name: "evoluderm",logo: "/img/evoluderm1.png", bgImage: "/img/evoluderm_bg.png" },
-  { name: "Galby",    logo: "/img/galby.png", bgImage: "/img/galby_bg.png" },
-  { name: "SOI VRE",  logo: "/img/soivre.png", bgImage: "/img/soivre_bg.png" },
-  { name: "ALFA",     logo: "/img/alfa_b.png", bgImage: "/img/alfa_bg.png" },
-  { name: "cipollino", logo: "/img/cipollino_logo.png", bgImage: "/img/cipollino_bg.png" },
-  { name: "biomed", logo: "/img/biomed_logo.png", bgImage: "/img/biomed_bg.png" },
-  { name: "dentyucral", logo: "/img/dentyucral_logo.png", bgImage: "/img/dentyurcal.png" },
+  { name: "capilift", logo: "/img/capilift.png", bgImage: "/img/caplift_bg.png" , href:"/capilift" },
+  { name: "davaj", logo: "/img/davaj_logo.png", bgImage: "/img/davaj_bg.png" , href:"/davaj" },
+  { name: "clearer", logo: "/img/cleare_logo.png", bgImage: "/img/cleare_bg.png" , href:"/cleare" },
+  { name: "reistill", logo: "/img/reistill_logo.png", bgImage: "/img/reistill_bg.png" , href:"/reistill" },
+  { name: "magiclear", logo: "/img/magiclear_logo.png", bgImage: "/img/magiclear_bg.png" , href:"/magiclear" },
+  { name: "paul",     logo: "/img/pauldevartens.png", bgImage: "/img/paul_bg.png", href:"/pdv" },
+  { name: "evoluderm",logo: "/img/evoluderm1.png", bgImage: "/img/evoluderm_bg.png", href:"/evoluderm" },
+  { name: "Galby",    logo: "/img/galby.png", bgImage: "/img/galby_bg.png", href:"/galby" },
+  { name: "soivre",  logo: "/img/soivre.png", bgImage: "/img/soivre_bg.png", href:"/soivre" },
+  { name: "ALFA",     logo: "/img/alfa_b.png", bgImage: "/img/alfa_bg.png", href:"/alfa" },
+  { name: "cipollino", logo: "/img/cipollino_logo.png", bgImage: "/img/cipollino_bg.png", href:"/cipollino" },
+  { name: "biomed", logo: "/img/biomed_logo.png", bgImage: "/img/biomed_bg.png", href:"/biomed" },
+  { name: "dentyucral", logo: "/img/dentyucral_logo.png", bgImage: "/img/dentyurcal.png", href:"/dentyucral" },
 ];
 
 export default function BrandShowcase() {
@@ -35,7 +39,7 @@ export default function BrandShowcase() {
         </button>
 
         {/* Brand Logos */}
-        <div className="flex items-center space-x-2 md:space-x-6 overflow-hidden max-w-[90%] md:max-w-5xl justify-center py-4">
+        <div className="flex items-center space-x-2 md:space-x-6 overflow-hidden max-w-[90%] md:max-w-[95%] justify-center py-4">
           {BRANDS.map((brand, idx) => {
             const isActive = idx === activeIndex;
             return (
@@ -92,7 +96,7 @@ export default function BrandShowcase() {
           
           {/* Left side actions */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6 w-full md:w-auto z-20">
-            <button className="bg-[#B6507A] hover:bg-[#974064] text-white px-8 py-3.5 rounded-md font-medium text-lg flex items-center transition-colors shadow-lg w-full sm:w-auto justify-center group">
+            <button onClick={()=> window.location.href = BRANDS[activeIndex].href} className="bg-[#B6507A] hover:bg-[#974064] text-white px-8 py-3.5 rounded-md font-medium text-lg flex items-center transition-colors shadow-lg w-full sm:w-auto justify-center group">
               Découvrir
               <div className="ml-4 border-l border-white/30 pl-4 transition-transform group-hover:translate-x-1">
                 <ChevronRight className="w-5 h-5" />
