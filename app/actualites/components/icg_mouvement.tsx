@@ -6,25 +6,25 @@ const campaigns = [
     brand: 'Galby',
     date: '1 Jan 2026',
     title: 'GALBY DERMATECH - NOUVEAUX GELS NETTOYANTS',
-    image: '/img/com1.png', // Replace with your actual image paths
+    image: '/img/c1.png', // Replace with your actual image paths
   },
   {
     brand: 'Davaj',
     date: '1 Jan 2026',
     title: 'NOTRE PREMIÈRE MARQUE DE SOINS INTIMES',
-    image: '/img/com2.png',
+    image: '/img/davaj_bg.png',
   },
   {
     brand: 'Cipollino',
     date: '1 Jan 2026',
     title: 'NOTRE PREMIÈRE GAMME BÉBÉ',
-    image: '/img/com3.png',
+    image: '/img/cipollino_bg.png',
   },
   {
     brand: 'Reistill',
     date: '1 Jan 2026',
     title: 'NOTRE NOUVELLE MARQUE DE SOINS CAPILLAIRES',
-    image: '/img/com4.png',
+    image: '/img/reistill_bg.png',
   },
 ];
 

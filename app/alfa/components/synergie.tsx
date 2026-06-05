@@ -37,7 +37,7 @@ export default function AlfadermSection() {
                             Acide Hyaluronique
                         </h3>
                         <p className="text-[13px] text-gray-800 leading-normal max-w-[160px]">
-                            Hydrate intensément et améliore l'élasticité de la peau
+                            Hydrate intensément et améliore l&apos;élasticité de la peau
                         </p>
                     </div>
 

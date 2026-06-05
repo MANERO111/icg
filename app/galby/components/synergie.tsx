@@ -20,7 +20,7 @@ export default function DermaTechSynergy() {
           Des soins dermocosmétiques suisses qui allient actifs puissants et respect du microbiome cutané pour des résultats visibles, durables et adaptés aux peaux, même sensibles.
         </p>
         <p>
-          Née d&apos;une émotion et construite par la science, Galby Dermatech place l'équilibre biologique de la peau au cœur de la performance.
+          Née d&apos;une émotion et construite par la science, Galby Dermatech place l&apos;équilibre biologique de la peau au cœur de la performance.
         </p>
       </div>
 
@@ -30,10 +30,10 @@ export default function DermaTechSynergy() {
           UNE TECHNOLOGIE AU CŒUR DE CHAQUE SOIN
         </h2>
         <p className="text-[15px] leading-relaxed text-gray-900 mb-4">
-          La Synergie DermaTech™ repose sur une combinaison intelligente d&apos;actifs dermatologiques puissants et de la technologie Microbiome-Tech, associant prébiotiques et postbiotiques pour optimiser l&apos;efficacité tout en respectant l'équilibre cutané.
+          La Synergie DermaTech™ repose sur une combinaison intelligente d&apos;actifs dermatologiques puissants et de la technologie Microbiome-Tech, associant prébiotiques et postbiotiques pour optimiser l&apos;efficacité tout en respectant l&apos;équilibre cutané.
         </p>
         <p className="text-[15px] leading-relaxed text-gray-900">
-          Cette synergie permet d&apos;agir efficacement tout en respectant l'équilibre naturel de la peau.
+          Cette synergie permet d&apos;agir efficacement tout en respectant l&apos;équilibre naturel de la peau.
         </p>
       </div>
 

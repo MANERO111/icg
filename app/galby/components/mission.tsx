@@ -87,7 +87,7 @@ export default function GalbyMissionApproach() {
               LE BIEN-ÊTRE
             </h3>
             <p className="text-[16px] text-gray-900 leading-relaxed max-w-[200px]">
-              Respect de l'équilibre de la peau
+              Respect de l&apos;équilibre de la peau
             </p>
           </div>
         </div>

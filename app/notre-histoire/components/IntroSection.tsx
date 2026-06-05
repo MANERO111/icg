@@ -11,8 +11,8 @@ export default function IntroSection() {
           efficaces et en phase avec les attentes du marché.
         </p>
         <p>
-          Avec le lancement de Galby en 2022, puis l'évolution de son identité et
-          de sa vision, ICG a affirmé son ambition d'être l&apos;acteur incontournable
+          Avec le lancement de Galby en 2022, puis l&apos;évolution de son identité et
+          de sa vision, ICG a affirmé son ambition d&apos;être l&apos;acteur incontournable
           de cet écosystème 360° : en unissant la force de l&apos;action pour un
           besoin précis, soutenu par la science, l&apos;innovation et le digital.
         </p>

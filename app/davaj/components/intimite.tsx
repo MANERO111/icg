@@ -17,7 +17,7 @@ export default function DermaTechSynergy() {
           Des soins intimes dermatologiques conçus pour respecter le pH naturel, protéger le microbiome et garantir confort, fraîcheur et sécurité au quotidien.
         </p>
         <p>
-          Développée en collaboration avec des gynécologues et des médecins, Davaj propose des solutions ciblées pour préserver l’équilibre et la santé de la zone intime.
+          Développée en collaboration avec des gynécologues et des médecins, Davaj propose des solutions ciblées pour préserver l&apos;équilibre et la santé de la zone intime.
         </p>
       </div>
 
@@ -33,7 +33,7 @@ export default function DermaTechSynergy() {
             </h2>
             <p className='text-[17px] leading-relaxed text-gray-900 mb-2'>
 
-              Davaj repose sur une expertise médicale avancée, avec des formules conçues pour respecter l’équilibre naturel de la zone intime
+              Davaj repose sur une expertise médicale avancée, avec des formules conçues pour respecter l&apos;équilibre naturel de la zone intime
             </p>
             <h4 className='text-[17px] font-semibold leading-relaxed text-gray-900 '>
 
