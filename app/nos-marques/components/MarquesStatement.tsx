@@ -5,7 +5,7 @@ export default function MarquesStatement() {
         
         {/* Pill */}
         <div className="border border-gray-400 rounded-full px-6 py-2 text-gray-800 text-sm md:text-base mb-2">
-          ICG développe un portefeuille de marques construit autour d'une logique claire :
+          ICG développe un portefeuille de marques construit autour d&apos;une logique claire :
         </div>
 
         {/* Header */}
@@ -15,7 +15,7 @@ export default function MarquesStatement() {
 
         {/* Subtitle */}
         <p className="text-gray-800 text-lg md:text-[1.35rem]  leading-relaxed ">
-          Notre ambition est de proposer des univers de marque différenciés, mais réunis par une même exigence de qualité, de performance et d'innovation
+          Notre ambition est de proposer des univers de marque différenciés, mais réunis par une même exigence de qualité, de performance et d&apos;innovation
         </p>
 
       </div>

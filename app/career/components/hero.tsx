@@ -20,7 +20,7 @@ export default function HeroSection() {
           {/* Body */}
           <p className="text-gray-900 text-2xl leading-relaxed  mb-8 text-justify">
             Chez ICG, chaque journée est une opportunité de créer, apprendre, lancer, développer et transformer des idées en projets concrets. <br className="hidden md:inline" />
-            <span className="font-semibold">Nous recherchons des talents passionnés par la beauté, l’innovation, le digital et l’expérience humaine.</span>
+            <span className="font-semibold">Nous recherchons des talents passionnés par la beauté, l&apos;innovation, le digital et l&apos;expérience humaine.</span>
 
 
           </p>

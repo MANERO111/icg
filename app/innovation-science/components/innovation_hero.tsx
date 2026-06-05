@@ -47,7 +47,7 @@ export default function InnovationHero() {
             INNOVATION & SCIENCE
           </p>
           <h1 className="text-white text-4xl md:text-7xl font-bold uppercase leading-[1.1] mb-20">
-            L'intelligence au <br />
+            L&apos;intelligence au <br />
             cœur de chaque <br />
             formule
           </h1>

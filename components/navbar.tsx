@@ -62,7 +62,7 @@ export default function ICGHeader() {
             <nav className="hidden lg:flex items-center gap-6 text-sm text-gray-600">
               <a href="#" className="hover:text-[#e05080] transition-colors">Se connecter</a>
               <span className="text-gray-300">|</span>
-              <a href="#" className="hover:text-[#e05080] transition-colors">Centre d'aide</a>
+              <a href="#" className="hover:text-[#e05080] transition-colors">Centre d&apos;aide</a>
               <span className="text-gray-300">|</span>
               <a href="#" className="hover:text-[#e05080] transition-colors">Devenir partenaire</a>
               <span className="text-gray-300">|</span>
@@ -191,7 +191,7 @@ export default function ICGHeader() {
             </div>
             <div className="flex gap-4 text-sm text-gray-500 py-1 border-b border-gray-100 pb-3">
               <a href="#" className="hover:text-[#e05080]">Se connecter</a>
-              <a href="#" className="hover:text-[#e05080]">Centre d'aide</a>
+              <a href="#" className="hover:text-[#e05080]">Centre d&apos;aide</a>
               <a href="#" className="hover:text-[#e05080]">Devenir partenaire</a>
             </div>
             {NAV_ITEMS.map((item) => (

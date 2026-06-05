@@ -49,7 +49,7 @@ export default function GalbyProductRanges() {
       {/* Middle Explainer Text */}
       <div className="text-center max-w-3xl mx-auto mb-16">
         <p className="text-[16px] md:text-[18px] leading-relaxed text-gray-800 font-medium">
-          Galby Dermatech s'engage aux côtés des médecins, pharmaciens et parapharmacies en proposant des solutions
+          Galby Dermatech s&apos;engage aux côtés des médecins, pharmaciens et parapharmacies en proposant des solutions
         </p>
       </div>
 

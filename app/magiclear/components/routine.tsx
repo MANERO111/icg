@@ -40,7 +40,7 @@ export default function MagiclearRoutine() {
                 2
               </div>
               <p className="text-[12px] font-semibold uppercase text-gray-800 tracking-wider leading-tight max-w-[110px]">
-                TRAITEMENT D'ATTAQUE
+                TRAITEMENT D&apos;ATTAQUE
               </p>
             </div>
 

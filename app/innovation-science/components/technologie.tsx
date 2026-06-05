@@ -113,8 +113,8 @@ export default function TechnologiesSection() {
                     Nos Technologies
                 </h2>
                 <p className="text-gray-900 text-base md:text-xl leading-relaxed">
-                    L'innovation chez ICG repose sur une lecture précise des besoins du
-                    marché et sur l'intégration de technologies capables d'apporter une
+                    L&apos;innovation chez ICG repose sur une lecture précise des besoins du
+                    marché et sur l&apos;intégration de technologies capables d&apos;apporter une
                     valeur réelle aux produits. Notre approche ne consiste pas seulement à
                     suivre les tendances, mais à structurer des solutions crédibles,
                     différenciantes et performantes.

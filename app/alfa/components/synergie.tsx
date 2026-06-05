@@ -18,7 +18,7 @@ export default function AlfadermSection() {
             <div className="bg-[#f8f9fa] rounded-2xl p-8 mb-16 border border-gray-100">
                 <div className="text-center mb-10">
                     <h2 className="text-xl sm:text-2xl font-bold tracking-wide text-black uppercase mb-2">
-                        Une Synergie d'Actifs Essentiels
+                        Une Synergie d&apos;Actifs Essentiels
                     </h2>
                     <p className="text-gray-600 text-sm sm:text-base">
                         Les formules Alfaderm associent des ingrédients reconnus pour leur efficacité
@@ -102,7 +102,7 @@ export default function AlfadermSection() {
                             Fer
                         </h3>
                         <p className="text-[13px] text-gray-800 leading-normal max-w-[160px]">
-                            améliore l'oxygénation cellulaire
+                            améliore l&apos;oxygénation cellulaire
                         </p>
                     </div>
 
@@ -129,7 +129,7 @@ export default function AlfadermSection() {
                             Expert Beauté – 3 en 1
                         </h3>
                         <p className="text-sm sm:text-lg text-gray-900 leading-relaxed font-normal text-justify">
-                            Un complément alimentaire complet conçu pour améliorer la qualité de la peau, renforcer les cheveux et solidifier les ongles. Une solution quotidienne pensée pour révéler une beauté visible de l'intérieur.
+                            Un complément alimentaire complet conçu pour améliorer la qualité de la peau, renforcer les cheveux et solidifier les ongles. Une solution quotidienne pensée pour révéler une beauté visible de l&apos;intérieur.
                         </p>
                     </div>
                 </div>
@@ -142,7 +142,7 @@ export default function AlfadermSection() {
                             Expert Énergie 5G
                         </h3>
                         <p className="text-sm sm:text-lg text-gray-700 leading-relaxed font-normal text-justify">
-                            Une formule ciblée pour les personnes en manque d'énergie, conçue pour réduire la fatigue, améliorer les performances physiques et mentales, et booster la vitalité ainsi que la libido. Elle repose sur une synergie d'actifs naturels tels que le <span className="font-bold text-black">ginseng, la maca, le guarana, la vitamine C et l'ashwagandha</span>, offrant une approche complète avec 5 composants pour 5 actions dédiées à l'énergie globale.
+                            Une formule ciblée pour les personnes en manque d&apos;énergie, conçue pour réduire la fatigue, améliorer les performances physiques et mentales, et booster la vitalité ainsi que la libido. Elle repose sur une synergie d&apos;actifs naturels tels que le <span className="font-bold text-black">ginseng, la maca, le guarana, la vitamine C et l&apos;ashwagandha</span>, offrant une approche complète avec 5 composants pour 5 actions dédiées à l&apos;énergie globale.
                         </p>
                     </div>
                     <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-md order-1 md:order-2">

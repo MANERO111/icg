@@ -14,7 +14,7 @@ export default function MissionSection() {
       <div className="lg:w-[50%] w-full">
         <h2 className="text-[#e0296a] text-3xl font-bold mb-4 font-sans ">Notre mission</h2>
         <p className="text-gray-900 w-[80%] font-normal text-[24px] leading-[1.8]">
-          Offrir des solutions innovantes et efficaces pour la beauté et le bien-être, en combinant science et expertise. Cette mission s'inscrit dans une démarche concrète : répondre aux besoins réels des consommateurs avec des produits intelligents, utiles, performants et adaptés à leur quotidien.
+          Offrir des solutions innovantes et efficaces pour la beauté et le bien-être, en combinant science et expertise. Cette mission s&apos;inscrit dans une démarche concrète : répondre aux besoins réels des consommateurs avec des produits intelligents, utiles, performants et adaptés à leur quotidien.
         </p>
       </div>
     </section>

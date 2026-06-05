@@ -14,10 +14,10 @@ export default function LaboratoiresSection() {
           Nos Laboratoires
         </h2>
         <p className="text-gray-800 text-base md:text-2xl leading-relaxed">
-          Le développement de nos solutions s'inscrit dans une logique de
+          Le développement de nos solutions s&apos;inscrit dans une logique de
           rigueur, de recherche et de maîtrise. Nos laboratoires et partenaires
           techniques jouent un rôle central dans la construction de formules
-          innovantes et fiables, au service de marques exigeantes et d'un marché
+          innovantes et fiables, au service de marques exigeantes et d&apos;un marché
           en évolution.
         </p>
       </div>

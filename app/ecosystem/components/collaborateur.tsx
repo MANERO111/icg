@@ -41,7 +41,7 @@ export default function CollaborateursSection() {
             Croissance.
           </h2>
           <p className="text-gray-900 text-xl md:text-2xl leading-relaxed text-justify ">
-            Nous croyons en l'intelligence collective, à la force de la
+            Nous croyons en l&apos;intelligence collective, à la force de la
             complémentarité et à la nécessité de faire évoluer les talents dans
             un environnement stimulant, structuré et ambitieux.
           </p>
@@ -65,9 +65,9 @@ export default function CollaborateursSection() {
       {/* Culture quote */}
       <div className="text-center w-[80%] mx-auto mb-14">
         <p className="text-xl md:text-2xl font-medium tracking-[0.18em] text-gray-900 uppercase leading-relaxed">
-          Notre culture interne repose sur l'engagement, la responsabilité, la
+          Notre culture interne repose sur l&apos;engagement, la responsabilité, la
           <br className="hidden md:block" />
-          progression et l'envie de construire ensemble un projet durable.
+          progression et l&apos;envie de construire ensemble un projet durable.
         </p>
       </div>
 

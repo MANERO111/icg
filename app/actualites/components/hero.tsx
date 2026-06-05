@@ -10,19 +10,19 @@ export default function HeroSection() {
         <div className="flex-1 flex flex-col justify-center lg:pr-12 z-10">
           {/* Headline */}
           <h1 className="font-semibold text-[2rem] sm:text-[2.6rem] lg:text-[3rem] leading-[1.1] tracking-tight mb-5">
-            <span className="text-[#e0296a]">L'ACTUALITÉ QUI FAIT</span>
+            <span className="text-[#e0296a]">L&apos;ACTUALITÉ QUI FAIT</span>
             <br />
             <span className="text-[#e0296a]">ÉVOLUER NOS MARQUES,</span>
             <br />
             <span className="text-[#e0296a]">NOS ÉQUIPES ET</span>
             <br />
-            <span className="text-[#e0296a]">L'UNIVERS DU SOIN</span>
+            <span className="text-[#e0296a]">L&apos;UNIVERS DU SOIN</span>
           </h1>
 
           {/* Body */}
           <p className="text-black text-lg leading-relaxed max-w-md mb-8">
             Découvrez les lancements, campagnes, événements, innovations,
-            collaborations et projets qui rythment la vie d'Intelligence
+            collaborations et projets qui rythment la vie d&apos;Intelligence
             Cosmétique Groupe.
           </p>
 

@@ -7,38 +7,49 @@ const DEPARTMENTS = [
   {
     id: 'rse',
     title: 'RSE',
-    img : "/img/dep1.png"
+    img : "/img/dep1.png",
+    borderColor: '',
+    bgColor: ''
   },
   {
     id: 'digital',
     title: 'DIGITAL',
-    img : "/img/dep2.png"
+    img : "/img/dep2.png",
+    borderColor: '',
+    bgColor: ''
   },
   {
     id: 'consulting',
     title: 'CONSULTING',
-    img : "/img/dep3.png"
+    img : "/img/dep3.png",
+    borderColor: '',
+    bgColor: ''
   },
   {
     id: 'distribution',
     title: 'DISTRIBUTION',
-    img : "/img/dep4.png"
+    img : "/img/dep4.png",
+    borderColor: '',
+    bgColor: ''
   },
   {
     id: 'academy',
     title: 'ACADEMY',
-    img : "/img/dep5.png"
+    img : "/img/dep5.png",
+    borderColor: '',
+    bgColor: ''
   },
 ];
 
 export default function DepartmentsSection() {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const [isDown, setIsDown] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
 
   // --- DESKTOP MOUSE SWIPE LOGIC ---
   const handleMouseDown = (e:React.MouseEvent<HTMLDivElement>) => {
+    if (!scrollRef.current) return;
     setIsDown(true);
     setStartX(e.pageX - scrollRef.current.offsetLeft);
     setScrollLeft(scrollRef.current.scrollLeft);
@@ -53,7 +64,7 @@ export default function DepartmentsSection() {
   };
 
   const handleMouseMove = (e:React.MouseEvent<HTMLDivElement>) => {
-    if (!isDown) return;
+    if (!isDown || !scrollRef.current) return;
     e.preventDefault();
     const x = e.pageX - scrollRef.current.offsetLeft;
     const walk = (x - startX) * 1.5; // Scroll speed multiplier
@@ -64,10 +75,10 @@ export default function DepartmentsSection() {
     <section className="bg-[#f2f7f6] py-16 px-4 overflow-hidden select-none">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-2xl md:text-4xl font-extrabold text-black tracking-tight uppercase mb-3">
-          Les départements qui <br className="md:hidden" /> donnent vie à l'innovation
+          Les départements qui <br className="md:hidden" /> donnent vie à l&apos;innovation
         </h2>
         <p className="text-gray-600 text-sm md:text-base font-medium">
-          Des expertises complémentaires réunies autour d'une même vision.
+          Des expertises complémentaires réunies autour d&apos; une même vision.
         </p>
       </div>
 

@@ -27,7 +27,7 @@ export default function PdvRoutine() {
                 1
               </div>
               <p className="text-[12px] font-semibold uppercase text-black tracking-wider leading-tight">
-                <span className='font-grey-900 font-semibold'>Nourrir de l’intérieur</span><br />
+                <span className='font-grey-900 font-semibold'>Nourrir de l&apos;intérieur</span><br />
                 Compléments alimentaires pour agir en profondeur
               </p>
             </div>
@@ -38,7 +38,7 @@ export default function PdvRoutine() {
                 2
               </div>
               <p className="text-[12px] font-semibold uppercase text-black tracking-wider leading-tight max-w-[190px]">
-                <span className='font-grey-900 font-semibold'> Compléter à l’extérieur</span><br />
+                <span className='font-grey-900 font-semibold'>Compléter à l&apos;extérieur</span><br />
                 Soins topiques pour optimiser les résultats
               </p>
             </div>

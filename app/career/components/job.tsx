@@ -168,7 +168,7 @@ export default function JobBoard() {
           {/* Select Dropdowns & Submit Button */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Niveau d'expérience</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">Niveau d&apos;expérience</label>
               <select
                 value={selectedExperience}
                 onChange={(e) => setSelectedExperience(e.target.value)}
@@ -292,7 +292,7 @@ export default function JobBoard() {
                   {/* Dynamic Inline Key/Value pairs matching image styling */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 border-t border-pink-100/60">
                     <div>
-                      <h4 className="font-bold text-gray-800">Type d'emploi :</h4>
+                      <h4 className="font-bold text-gray-800">Type d&apos;emploi :</h4>
                       <p className="text-gray-600">{activeJob.fullDesc.details.type}</p>
                     </div>
                     <div>

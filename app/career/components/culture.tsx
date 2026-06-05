@@ -42,7 +42,7 @@ export default function CultureAndCTA() {
         {/* --- TOP SECTION: CULTURE HEADER --- */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-black uppercase leading-tight">
-            Une culture portée par <br /> l'ambition collective
+            Une culture portée par <br /> l&apos;ambition collective
           </h2>
         </div>
 
@@ -100,7 +100,7 @@ export default function CultureAndCTA() {
             </h2>
             
             <p className="text-sm md:text-lg text-neutral-300 leading-relaxed font-light mb-8 max-w-2xl">
-              Chez ICG, nous croyons que l'innovation naît des talents passionnés. 
+              Chez ICG, nous croyons que l&apos;innovation naît des talents passionnés. 
               Nous recherchons des profils pour participer au développement de 
               marques dermocosmétiques modernes, humaines et innovantes.
             </p>

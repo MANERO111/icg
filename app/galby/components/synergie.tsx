@@ -20,7 +20,7 @@ export default function DermaTechSynergy() {
           Des soins dermocosmétiques suisses qui allient actifs puissants et respect du microbiome cutané pour des résultats visibles, durables et adaptés aux peaux, même sensibles.
         </p>
         <p>
-          Née d'une émotion et construite par la science, Galby Dermatech place l'équilibre biologique de la peau au cœur de la performance.
+          Née d&apos;une émotion et construite par la science, Galby Dermatech place l'équilibre biologique de la peau au cœur de la performance.
         </p>
       </div>
 
@@ -30,10 +30,10 @@ export default function DermaTechSynergy() {
           UNE TECHNOLOGIE AU CŒUR DE CHAQUE SOIN
         </h2>
         <p className="text-[15px] leading-relaxed text-gray-900 mb-4">
-          La Synergie DermaTech™ repose sur une combinaison intelligente d'actifs dermatologiques puissants et de la technologie Microbiome-Tech, associant prébiotiques et postbiotiques pour optimiser l'efficacité tout en respectant l'équilibre cutané.
+          La Synergie DermaTech™ repose sur une combinaison intelligente d&apos;actifs dermatologiques puissants et de la technologie Microbiome-Tech, associant prébiotiques et postbiotiques pour optimiser l&apos;efficacité tout en respectant l'équilibre cutané.
         </p>
         <p className="text-[15px] leading-relaxed text-gray-900">
-          Cette synergie permet d'agir efficacement tout en respectant l'équilibre naturel de la peau.
+          Cette synergie permet d&apos;agir efficacement tout en respectant l'équilibre naturel de la peau.
         </p>
       </div>
 
@@ -56,7 +56,7 @@ export default function DermaTechSynergy() {
               <Image src="/img/sy2.png" alt="Réduction" width={56} height={56} />
             </div>
             <p className="text-[15px] text-gray-700 leading-snug">
-              <span className="font-bold text-black">Réduction</span> <br />de l'inflammation
+              <span className="font-bold text-black">Réduction</span> <br />de l&apos;inflammation
             </p>
           </div>
 
@@ -85,13 +85,13 @@ export default function DermaTechSynergy() {
       {/* Footer Breakdown Text */}
       <div className="text-center max-w-4xl mx-auto text-[15px] leading-relaxed text-gray-800">
         <p>
-          Les formules reposent sur une sélection d'actifs ciblés, choisis en fonction des besoins spécifiques de la peau. Pour les{' '}
+          Les formules reposent sur une sélection d&apos;actifs ciblés, choisis en fonction des besoins spécifiques de la peau. Pour les{' '}
           <span className="bg-[#ffdec2] px-1 rounded-sm text-black">taches pigmentaires</span>
-          , des ingrédients reconnus tels que l'acide tranexamique, l'alpha-arbutine et les AHA contribuent à unifier et illuminer le teint.{' '}
+          , des ingrédients reconnus tels que l&apos;acide tranexamique, l&apos;alpha-arbutine et les AHA contribuent à unifier et illuminer le teint.{' '}
           <span className="bg-[#a8efa6] px-1 rounded-sm text-black">Les imperfections</span>{' '}
           sont prises en charge grâce à des actifs régulateurs comme la niacinamide et le zinc, qui aident à purifier et apaiser la peau. Enfin, pour{' '}
           <span className="bg-[#c2e2ff] px-1 rounded-sm text-black">la déshydratation</span>
-          , l'acide hyaluronique apporte une hydratation intense et durable, tout en améliorant le confort cutané.
+          , l&apos;acide hyaluronique apporte une hydratation intense et durable, tout en améliorant le confort cutané.
         </p>
       </div>
     </section>

@@ -66,7 +66,7 @@ export default function GalbyMissionApproach() {
               />
             </div>
             <h3 className="text-[17px] font-bold uppercase tracking-wide text-black mb-2">
-              L'INNOVATION
+              L&apos;INNOVATION
             </h3>
             <p className="text-[16px] text-gray-900 leading-relaxed max-w-[200px]">
               Soins précis sans compromis

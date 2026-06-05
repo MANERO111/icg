@@ -73,7 +73,7 @@ export default function CapiliftSection() {
           <div className="relative z-10 text-xs sm:text-sm text-gray-300 space-y-1 pl-2 border-l border-blue-500/40">
             <p>• renforce le cuir chevelu</p>
             <p>• réduit les inflammations</p>
-            <p>• améliore l'hydratation</p>
+            <p>• améliore l&apos;hydratation</p>
           </div>
         </div>
 
