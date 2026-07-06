@@ -1,7 +1,3 @@
-// IcgNewsSection.tsx
-// Drop this into your Next.js project. Requires Tailwind CSS.
-// Replace the placeholder image URLs with your actual images.
-
 import Image from "next/image";
 
 interface Article {
@@ -77,16 +73,10 @@ const articles: Article[] = [
   },
 ];
 
-
-
-function Badge({
-  label,
-}: {
-  label: string;
-}) {
+function Badge({ label }: { label: string }) {
   return (
     <span
-      className={`absolute top-3 left-3 z-10 text-[12px] font-normal tracking-widest uppercase px-2.5 py-1 rounded-full bg-[#e0296a] text-white`}
+      className="absolute top-2 left-2 lg:top-3 lg:left-3 z-10 text-[8px] lg:text-[12px] font-bold tracking-wider uppercase px-1.5 lg:px-2.5 py-0.5 lg:py-1 rounded-sm bg-[#e0296a]/90 text-white"
     >
       {label}
     </span>
@@ -95,29 +85,29 @@ function Badge({
 
 function ArticleCard({ article }: { article: Article }) {
   return (
-    <article className="flex flex-col group cursor-pointer">
+    <article className="flex flex-col group cursor-pointer font-sans">
       {/* Image wrapper */}
-      <div className="relative w-full aspect-[4/3] overflow-hidden bg-gray-100 mb-4">
-        <Badge label={article.badge}  />
+      <div className="relative w-full aspect-[4/3] overflow-hidden bg-gray-100 mb-2 lg:mb-4">
+        <Badge label={article.badge} />
         <Image
           src={article.image}
           alt={article.title}
           fill
           className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px"
         />
       </div>
 
       {/* Meta */}
-      <p className="text-xs text-gray-500 mb-2 font-medium">{article.date}</p>
+      <p className="text-[9px] lg:text-xs text-gray-400 mb-1 lg:mb-2 font-medium">{article.date}</p>
 
       {/* Title */}
-      <h3 className="text-[24px] font-bold text-gray-900 tracking-tight leading-8 mb-2 group-hover:text-[#e0296a] transition-colors duration-200">
+      <h3 className="text-[13px] md:text-[24px] font-bold text-black tracking-tight leading-[1.25] md:leading-8 mb-1.5 lg:mb-2 group-hover:text-[#e0296a] transition-colors duration-200 line-clamp-3 md:line-clamp-none">
         {article.title}
       </h3>
 
       {/* Excerpt */}
-      <p className="text-sm text-gray-500 leading-relaxed line-clamp-3">
+      <p className="text-[10px] md:text-sm text-gray-500 leading-normal md:leading-relaxed line-clamp-4 font-normal">
         {article.excerpt}
       </p>
     </article>
@@ -126,14 +116,14 @@ function ArticleCard({ article }: { article: Article }) {
 
 export default function IcgNewsSection() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 py-12">
+    <section className="w-full max-w-7xl mx-auto px-4 lg:px-6 py-8 lg:py-12">
       {/* Section heading */}
-      <h2 className="text-2xl font-extrabold text-[#e0296a] mb-8 tracking-tight">
+      <h2 className="text-xl lg:text-2xl font-extrabold text-[#e0296a] mb-6 lg:mb-8 tracking-tight font-sans">
         À la une chez ICG
       </h2>
 
-      {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
+      {/* Grid: 2 columns on mobile, 3 columns on desktop */}
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-10">
         {articles.map((article) => (
           <ArticleCard key={article.id} article={article} />
         ))}

@@ -39,14 +39,14 @@ const categoryColors: Record<string, string> = {
 
 export default function LatestNews() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 lg:px-12 py-12">
+    <section className="w-full max-w-7xl mx-auto px-6 lg:px-12 py-4 md:py-12">
       {/* Section title */}
-      <h2 className="text-gray-900 font-semibold text-2xl mb-6">
+      <h2 className="text-gray-900 font-semibold text-[16px] md:text-2xl mb-6">
         Dernières actualités
       </h2>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
         {articles.map((article) => (
           <article
             key={article.id}
@@ -65,25 +65,25 @@ export default function LatestNews() {
             {/* Meta: category + date */}
             <div className="flex items-center gap-2 mb-2">
               <span
-                className={`text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded-full ${
+                className={`text-[7px] md:text-[10px] font-semibold tracking-wider px-2 py-0.5 rounded-full ${
                   categoryColors[article.category] ??
                   "bg-gray-100 text-gray-600"
                 }`}
               >
                 {article.category}
               </span>
-              <span className="text-xs text-gray-400">{article.date}</span>
+              <span className="text-[7px] md:text-xs text-gray-400">{article.date}</span>
             </div>
 
             {/* Title + arrow */}
-            <div className="flex items-start justify-between gap-3">
-              <h3 className="text-gray-900 font-sans font-semibold text-xl leading-snug group-hover:text-[#E91E8C] transition-colors duration-200">
+            <div className="flex items-start justify-between gap-1 md:gap-3">
+              <h3 className="text-gray-900 font-sans font-semibold text-[9px] md:text-xl leading-snug group-hover:text-[#E91E8C] transition-colors duration-200">
                 {article.title}
               </h3>
               <span className="mt-0.5 shrink-0 text-gray-400 group-hover:text-[#E91E8C] transition-colors duration-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-4 h-4"
+                  className="w-2 h-2 md:w-4 md:h-4"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"

@@ -6,7 +6,7 @@ import { Globe } from 'lucide-react';
 export default function HeroSection() {
   return (
     <div 
-      className="relative w-[90%] sm:w-[85%] mx-auto h-[500px] sm:h-[600px] md:h-[750px] flex flex-col justify-end bg-cover bg-center bg-no-repeat overflow-hidden my-10 md:my-20 rounded-3xl md:rounded-4xl shadow-sm font-sans"
+      className="relative w-[90%] sm:w-[85%] mx-auto h-[400px] sm:h-[600px] md:h-[750px] flex flex-col justify-end bg-cover bg-left md:bg-center bg-no-repeat overflow-hidden my-5 md:my-20 rounded-3xl md:rounded-4xl shadow-sm font-sans"
       style={{ 
         backgroundImage: "url('/img/galby_hero.png')" 
       }}
@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/5 pointer-events-none" />
 
       {/* --- CENTER BOTTOM: PRODUCT PICTURE GROUP --- */}
-      <div className="absolute bottom-0 md:bottom-4 left-1/2 -translate-x-1/2 z-10 w-[85%] sm:w-[70%] md:w-auto flex justify-center items-end select-none">
+      <div className="absolute max-md:hidden bottom-0 md:bottom-4 left-1/2 -translate-x-1/2 z-10 w-[85%] sm:w-[70%] md:w-auto flex justify-center items-end select-none">
         <img 
           src="/img/Group_229.png" 
           alt="Galby Dermatech Products"
@@ -25,7 +25,7 @@ export default function HeroSection() {
       </div>
 
       {/* --- BOTTOM LEFT: DECOUVRIR & SOCIAL BUTTONS --- */}
-      <div className="absolute bottom-4 sm:bottom-8 left-4 sm:left-8 md:left-12 z-20 flex flex-col gap-2.5 sm:gap-3">
+      <div className="absolute bottom-4 sm:bottom-8   sm:left-8 md:left-12 left-1/2 max-md:-translate-x-1/2 z-20 flex flex-col  gap-2.5 sm:gap-3">
         
         {/* "Découvrir la marque" Button */}
         <button className="flex items-center justify-center gap-2 bg-black/35 hover:bg-black/50 backdrop-blur-md text-white text-[11px] sm:text-xs md:text-sm font-medium py-2 px-3 sm:py-2.5 sm:px-4 rounded-lg border border-white/10 transition-all active:scale-95 shadow-sm">
@@ -84,7 +84,7 @@ export default function HeroSection() {
       </div>
 
       {/* Top Right Mini Accent Flag matching image_55dd63.jpg layout */}
-      <div className="absolute top-4 right-4 md:top-6 md:right-8 w-8 h-4 md:w-10 md:h-5 bg-[#d94545] rounded-md" />
+      <div className="absolute top-4 right-4 md:top-6 md:right-8 w-8 h-4 md:w-10 md:h-5 bg-[#d94545] rounded-md  max-md:hidden" />
     </div>
   );
 }

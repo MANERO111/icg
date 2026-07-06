@@ -39,7 +39,7 @@ export default function ICGHeader() {
     <>
       <header className="w-full font-sans relative z-50">
         {/* Top Banner */}
-        <div className="bg-linear-to-r from-[#e0296a] to-[#8761a1] text-white text-center py-2 px-4 tracking-widest text-lg font-semibold uppercase">
+        <div className="bg-linear-to-r from-[#e0296a] to-[#8761a1] text-white text-center py-2 px-4 tracking-widest text-lg font-semibold uppercase max-md:hidden">
           -20% et Livraison gratuite sur Casablanca à partir de 200 dh
         </div>
 

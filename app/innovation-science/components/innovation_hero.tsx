@@ -20,20 +20,20 @@ export default function InnovationHero() {
       href: "#nosLaboratoire",
       pic : "/img/labo_icon.png"
     },
-    {
-      id: "synergie",
-      label: "Synergie Dermatech",
-      icon: "✨",
-      href: "#synergie",
-      pic : "/img/plus.png"
-    },
+    // {
+    //   id: "synergie",
+    //   label: "Synergie Dermatech",
+    //   icon: "✨",
+    //   href: "#synergie",
+    //   pic : "/img/plus.png"
+    // },
   ];
 
   return (
-    <section className="relative w-[90%] mx-auto  mt-10">
+    <section className="relative w-[90%] mx-auto  mt-10 font-sans">
       {/* Main Hero Container */}
       <div
-        className="relative w-full h-[600px] md:h-[700px] flex flex-col justify-end overflow-hidden rounded-[2.5rem] z-10"
+        className="relative w-full h-[400px] md:h-[700px] flex flex-col justify-end overflow-hidden rounded-lg md:rounded-[2.5rem] z-10"
         style={{
           backgroundImage: "url('/img/innovation_hero.jpg')",
           backgroundSize: "cover",
@@ -42,13 +42,13 @@ export default function InnovationHero() {
       >
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
 
-        <div className="relative z-20 px-10 md:px-20">
-          <p className="text-white md:text-xl text-lg font-medium tracking-widest uppercase mb-4">
+        <div className="relative z-20 px-5 md:px-20">
+          <p className="text-white md:text-xl text-[10px] font-medium tracking-widest uppercase md:mb-4">
             INNOVATION & SCIENCE
           </p>
-          <h1 className="text-white text-4xl md:text-7xl font-bold uppercase leading-[1.1] mb-20">
-            L&apos;intelligence au <br />
-            cœur de chaque <br />
+          <h1 className="text-white text-2xl md:text-7xl font-bold uppercase leading-[1.1] md:mb-20 mb-10">
+            L&apos;intelligence au <br className="max-md:hidden" />
+            cœur  <br className="md:hidden" /> de chaque <br className="max-md:hidden" />
             formule
           </h1>
         </div>
@@ -56,7 +56,7 @@ export default function InnovationHero() {
 
       {/* The Floating Navigation Bar */}
       <div className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2 z-30 w-[90%] ">
-        <div className="bg-white rounded-xl shadow-xl flex flex-col md:flex-row items-stretch overflow-hidden min-h-[100px]">
+        <div className="bg-white rounded-xl shadow-xl flex flex-row items-stretch overflow-hidden min-h-[60px] md:min-h-[100px]">
           {tabs.map((tab, index) => (
             <React.Fragment key={tab.id}>
               <button
@@ -65,14 +65,14 @@ export default function InnovationHero() {
                   // Optional: Smooth scroll to section
                   document.querySelector(tab.href)?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className={`flex-1 flex items-center justify-center gap-3 p-6 transition-all duration-300
+                className={`flex-1 flex items-center justify-center gap-3 md:p-6 transition-all duration-300
                   ${activeTab === tab.id 
                     ? "border-pink-600 border-b-4 md:border-b-[6px]" 
                     : "border-transparent border-b-4 md:border-b-[6px] hover:bg-gray-50"
                   }`}
               >
                 <span className="text-3xl"><img src={tab.pic} alt="" /></span>
-                <span className={`font-bold  text-xl tracking-tight text-gray-800`}>
+                <span className={`font-bold text-[10px] md:text-xl tracking-tight text-gray-800`}>
                   {tab.label}
                 </span>
               </button>

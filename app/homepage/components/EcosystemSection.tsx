@@ -74,7 +74,7 @@ export default function EcosystemSection() {
              </svg>
           </div>
           
-          <p className="text-black font-semibold text-[15px] max-w-2xl mx-auto leading-[1.8]">
+          <p className="text-gray-800 font-semibold text-[12px] md:text-[15px] max-w-2xl mx-auto md:leading-[1.8]">
             ICG déploie ses ambitions de collaboration et d&apos;expertise à travers ses différentes marques dermo-cosmétiques pour englober l&apos;ensemble de l&apos;écosystème corporel et de l&apos;hygiène, avec des solutions curatives et performantes adaptées à tous.
           </p>
         </div>

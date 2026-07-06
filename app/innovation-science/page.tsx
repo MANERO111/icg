@@ -8,7 +8,7 @@ export default function InnovationPage() {
             <InnovationHero />
             <Technologies />
             <LaboratoiresSection />
-            <SynergieSection />
+            {/* <SynergieSection /> */}
 
         </main>
     );

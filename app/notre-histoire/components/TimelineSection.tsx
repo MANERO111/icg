@@ -120,12 +120,12 @@ export default function TimelineSection() {
   }, []);
 
   return (
-    <section className="w-full sm:px-2 lg:px-4 pb-32 relative">
+    <section className="w-full sm:px-2 lg:px-4 pb-32 relative ">
       {/* Sticky Overlay container */}
       <div className="sticky top-[50vh] w-full flex justify-center pointer-events-none z-20 h-0">
         {/* Stroke Style (Image overlap) */}
         <span
-          className={`absolute -translate-y-1/2 text-[8rem] sm:text-[12rem] font-extralight tracking-widest text-transparent select-none transition-all duration-700 ease-out ${
+          className={`absolute -translate-y-1/2 text-[6rem] sm:text-[12rem] font-bold tracking-widest text-transparent select-none transition-all duration-700 ease-out ${
             activeStyle === "image" ? "opacity-100 scale-100" : "opacity-0 scale-95"
           }`}
           style={{ WebkitTextStroke: "2px rgba(224, 41, 106, 0.9)" }}
@@ -134,7 +134,7 @@ export default function TimelineSection() {
         </span>
         {/* Solid Style (Text overlap) */}
         <span
-          className={`absolute -translate-y-1/2 text-[8rem] sm:text-[12rem] font-bold text-[#E74C6F] leading-none select-none transition-all duration-700 ease-out ${
+          className={`absolute -translate-y-1/2 text-[6rem] sm:text-[12rem] font-bold text-[#E74C6F] leading-none select-none transition-all duration-700 ease-out ${
             activeStyle === "text" ? "opacity-100 scale-100" : "opacity-0 scale-110"
           }`}
         >
@@ -147,7 +147,7 @@ export default function TimelineSection() {
           <div key={section.id} className="w-full flex flex-col items-center">
             {/* Image Banner */}
             <div 
-              className="w-full lg:w-[90%] relative z-10 h-[400px] rounded-2xl overflow-hidden shadow-sm mb-10 timeline-observe"
+              className="w-full lg:w-[90%] relative z-10 md:h-[400px] h-[250px] md:rounded-2xl overflow-hidden shadow-sm mb-10 timeline-observe"
               data-year={section.yearLabel}
               data-type="image"
             >
@@ -161,7 +161,7 @@ export default function TimelineSection() {
 
             {/* Text Items and Spacer Wrapping container */}
             <div 
-              className="w-full flex flex-col items-center timeline-observe"
+              className="w-full flex flex-col items-center timeline-observe font-sans"
               data-year={section.id}
               data-type="text"
             >
@@ -169,13 +169,13 @@ export default function TimelineSection() {
                 {section.items.map((item, i) => (
                   <div key={i} className="flex flex-col items-center">
                     <h3 
-                      className="text-3xl md:text-4xl font-bold text-gray-900 mb-3 uppercase tracking-wide"
+                      className="text-xl md:text-4xl font-bold text-gray-900 mb-3 uppercase tracking-wide"
                       style={{ textShadow: "0px 0px 10px rgba(255,255,255,0.9)" }}
                     >
                       {item.title}
                     </h3>
                     <p 
-                      className="text-gray-800 text-lg md:text-xl leading-relaxed whitespace-pre-line"
+                      className="text-gray-900 text-xs md:text-xl md:leading-relaxed whitespace-pre-line"
                       style={{ textShadow: "0px 0px 8px rgba(255,255,255,0.9)" }}
                     >
                       {item.description}
@@ -186,7 +186,7 @@ export default function TimelineSection() {
 
               {/* Spacer except for the last one */}
               {index < timelineData.length - 1 && (
-                <div className="w-full flex justify-center h-[25vh] min-h-[200px]" />
+                <div className="w-full flex justify-center md:h-[25vh] h-[15vh] md:min-h-[200px]" />
               )}
             </div>
           </div>

@@ -59,7 +59,7 @@ const stats = [
 
 export default function IcgSection() {
   return (
-    <section className="w-full mx-auto px-4 py-12 font-sans text-[#1a1a1a]">
+    <section className="w-full mx-auto px-4 py-12 max-md:hidden font-sans text-[#1a1a1a]">
       
       {/* --- Top Section: Campaigns & Launches --- */}
       <div className="mb-16 max-w-7xl mx-auto">

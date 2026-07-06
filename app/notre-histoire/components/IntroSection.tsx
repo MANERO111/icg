@@ -2,8 +2,8 @@ import React from "react";
 
 export default function IntroSection() {
   return (
-    <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div className="grid grid-cols-1 md:grid-cols-2  gap-10 md:gap-20 text-gray-800 leading-relaxed text-lg lg:text-xl">
+    <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-5 md:gap-20 text-gray-800 md:leading-relaxed text-xs lg:text-xl max-md:text-justify">
         <p>
           <span className="font-bold">Depuis 2021</span>, Intelligence Cosmétique Groupe s&apos;est donné
           pour mission de construire un groupe cosmétique marocain innovant,

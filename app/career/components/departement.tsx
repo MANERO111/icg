@@ -72,12 +72,12 @@ export default function DepartmentsSection() {
   };
 
   return (
-    <section className="bg-[#f2f7f6] py-16 px-4 overflow-hidden select-none">
+    <section className="bg-[#f2f7f6] py-6 md:py-16 md:px-4 overflow-hidden font-sans select-none">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="text-2xl md:text-4xl font-extrabold text-black tracking-tight uppercase mb-3">
+        <h2 className="text-3xl md:text-4xl font-semibold text-black tracking-tight uppercase mb-3">
           Les départements qui <br className="md:hidden" /> donnent vie à l&apos;innovation
         </h2>
-        <p className="text-gray-600 text-sm md:text-base font-medium">
+        <p className="text-gray-600 text-xs md:text-base font-medium">
           Des expertises complémentaires réunies autour d&apos; une même vision.
         </p>
       </div>
@@ -89,15 +89,15 @@ export default function DepartmentsSection() {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        className={`flex gap-6 overflow-x-auto pb-8 pt-2 px-4 scrollbar-hide snap-x snap-mandatory mx-auto max-w-[70%] ${
+        className={`flex md:gap-6 gap-2 overflow-x-auto pb-8 pt-2 md:px-4 scrollbar-hide snap-x snap-mandatory mx-auto md:max-w-[70%] max-w-full ${
           isDown ? 'cursor-grabbing' : 'cursor-grab'
         } scroll-smooth`}
-        style={{ WebkitOverflowScrolling: 'touch' }} // Smooth momentum scrolling on iOS
+        style={{WebkitOverflowScrolling: 'touch'}}
       >
         {DEPARTMENTS.map((dept) => (
           <div
             key={dept.id}
-            className={`flex-none w-[260px] md:w-[300px] aspect-3/4 rounded-[24px] border-12 ${dept.borderColor} ${dept.bgColor} relative overflow-hidden shadow-xl snap-center`}
+            className={`flex-none w-[180px] md:w-[300px] aspect-3/4 rounded-[12px] md:rounded-[24px] border-4 md:border-12 ${dept.borderColor} ${dept.bgColor} relative overflow-hidden shadow-xl snap-center`}
           >
  
 

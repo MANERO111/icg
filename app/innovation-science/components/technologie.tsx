@@ -106,13 +106,13 @@ export default function TechnologiesSection() {
     };
 
     return (
-        <section className="w-[90%] mx-auto  bg-white py-16 px-4 md:px-8 overflow-hidden">
+        <section className=" w-full md:w-[90%] mx-auto  bg-white py-2 md:py-16 px-2 md:px-8 overflow-hidden font-sans">
             {/* Header */}
-            <div className="text-center mb-10 mt-30 max-w-7xl mx-auto">
-                <h2 className="text-4xl md:text-5xl font-semibold text-[#e0296a] uppercase tracking-tight mb-4" id="technologie">
+            <div className="text-center mb-5 md:mb-10 mt-30 max-w-7xl mx-auto">
+                <h2 className="text-3xl md:text-5xl font-semibold text-[#e0296a] uppercase tracking-tight mb-4" id="technologie">
                     Nos Technologies
                 </h2>
-                <p className="text-gray-900 text-base md:text-xl leading-relaxed">
+                <p className="text-gray-900 text-sm md:text-xl leading-[1.3] md:leading-relaxed">
                     L&apos;innovation chez ICG repose sur une lecture précise des besoins du
                     marché et sur l&apos;intégration de technologies capables d&apos;apporter une
                     valeur réelle aux produits. Notre approche ne consiste pas seulement à
@@ -122,14 +122,14 @@ export default function TechnologiesSection() {
             </div>
 
             {/* Subtitle */}
-            <h3 className="text-center text-xl md:text-2xl font-medium tracking-[0.25em] text-gray-900 uppercase mb-8">
+            <h3 className="text-center text-md md:text-2xl font-medium tracking-[0.25em] text-gray-900 uppercase mb-8">
                 Liste Technologies à Intégrer
             </h3>
 
             {/* Scrollable Cards */}
             <div
                 ref={scrollRef}
-                className="flex gap-5 overflow-x-auto scroll-smooth pb-4 px-2 md:px-4"
+                className="flex gap-2 md:gap-5 overflow-x-auto scroll-smooth pb-4 px-0 md:px-4"
                 style={{
                     cursor: "grab",
                     scrollbarWidth: "none",
@@ -144,7 +144,7 @@ export default function TechnologiesSection() {
                 {technologies.map((tech, index) => (
                     <div
                         key={index}
-                        className="relative flex-shrink-0 w-64 md:w-72 h-[440px] rounded-2xl overflow-hidden select-none group"
+                        className="relative flex-shrink-0 w-52 md:w-72 h-[320px] md:h-[440px] rounded-2xl overflow-hidden select-none group"
                     >
                         {/* Background: placeholder gradient (replace with <Image> in production) */}
                         <div
@@ -160,14 +160,14 @@ export default function TechnologiesSection() {
 
                         {/* Title badge */}
                         <div className="absolute top-4 left-4 right-4">
-                            <span className="inline-block bg-white/90 backdrop-blur-sm text-gray-900 text-md font-medium px-3 py-1.5 rounded-lg shadow-md">
+                            <span className="inline-block bg-white/90 backdrop-blur-sm text-gray-900 text-[12px] md:text-md font-medium px-3 py-1.5 rounded-lg shadow-md">
                                 {tech.title}
                             </span>
                         </div>
 
                         {/* Description */}
-                        <div className="absolute bottom-0 left-0 right-0 p-5">
-                            <p className="text-white/90 text-xs leading-relaxed text-justify">
+                        <div className="absolute bottom-0 left-0 right-0 p-2 md:p-5">
+                            <p className="text-white/90 text-[9px] md:text-xs leading-relaxed text-justify">
                                 {tech.description}
                             </p>
                         </div>
